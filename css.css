@@ -1,0 +1,27 @@
+.empty-space {
+    height: 200px;
+    /* Adjust the height as needed */
+}
+
+.glow-on-hover {
+    transition: box-shadow .5s
+}
+
+.glow-on-hover:hover {
+    box-shadow: 0 0 10px #000000
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.gradient90 {
+    background: linear-gradient(90deg, #ff00cc, #3333ff);
+}   
+.gradient45 {
+    background: linear-gradient(90deg, crimson, darkorange);
+}
