@@ -2,7 +2,7 @@
 <html>
     <head>
 
-          <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,37 +18,83 @@
     <body class="gradient45">
           <!-- Navigation bar -->
           <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="index.html">Frontpage</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link text-light" href="aboutme.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="history.html">History Project</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="game.html">Scratch game</a>
-                    </li>
-                </ul>
+            <div class="container-fluid"> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="index.html">Frontpage</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="aboutme.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="history.html">History Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="game.html">Scratch game</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="text-center my-3">
+			<div class="row">
+				<div class="col-12">
+                    <h1 class="text-center my-3 color1">
                         Gallery
                     </h1>
                 </div>
             </div>
-
+			<div class="row justify-content-center">
+				<div class="col-12">
+					<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+							<li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+							<li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+							<li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+							<li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+						</ol>
+		
+						<!-- Slides -->
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="images\KSP1pieni.png" alt="Minecraft picture of forest">
+							</div>
+							<div class="carousel-item">
+								<img src="images\KSP2pieni.png" alt="Building in minecraft with friend">
+							</div>
+							<div class="carousel-item">
+								<img src="images\KSP3pieni.png" alt="Friend at door in Minecraft">
+							</div>
+							<div class="carousel-item">
+								<img src="images\Minecraft1pieni.png" alt="Friend at door in Minecraft">
+							</div>
+							<div class="carousel-item">
+								<img src="images\Minecraft2pieni.png" alt="Friend at door in Minecraft">
+							</div>
+						</div>
+		
+						<!-- Navigation arrows -->
+						<a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
     </body>
 </html> 
