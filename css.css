@@ -44,4 +44,8 @@ h1 {
     height: auto; /* Maintain aspect ratio */
 }
 
+.index {
+  width: auto;
+  height: 400px;
+}
 
