@@ -44,8 +44,11 @@ h1 {
     height: auto; /* Maintain aspect ratio */
 }
 
-.index {
-  width: auto;
-  height: 400px;
-}
+    .img-container {
+      text-align: center;
+    }
+    .img-container img {
+      max-height: 400px;
+      display: inline-block;
+    }
 
