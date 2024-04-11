@@ -25,6 +25,18 @@ h1 {
 .gradient45 {
     background: linear-gradient(90deg, crimson, darkorange);
 }
+.gradient0 {
+    background: linear-gradient(90deg, darkcyan, darkorchid);
+}
+.gradient1 {
+    background: linear-gradient(90deg, indianred, lightcoral);
+}
+.gradient2 {
+    background: linear-gradient(90deg, olive, orange);
+}
+.gradient3 {
+    background: linear-gradient(90deg, teal, turquoise);
+}
 
 /* .color1 {
     color: rgb(14, 0, 3) !important;
